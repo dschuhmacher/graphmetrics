@@ -1,0 +1,30 @@
+Package: graphmetrics
+Type: Package
+Title: Compute Graph Metrics Exactly or Approximately and Perform Statistical Analyses Based on Them
+Version: 0.2.0
+Date: 2023-08-23
+Authors@R: c( person(given = "Dominic", family = "Schuhmacher", email = "schuhmacher@math.uni-goettingen.de", role = c("aut", "cph", "cre"), comment = c(ORCID = "0000-0001-7079-6313")),  
+           person(given = c("Leoni", "Carla"), family = "Wirth", email = "leonicarla.wirth@uni-goettingen.de", role = c("aut", "cph")),
+           person(given = "Raoul", family = "Müller", role = c("ctb"), comment = "original anova and levene functions"))
+Description: To do.
+Depends: R (>= 3.5)
+Imports: 
+    methods,
+    stats,
+    utils,
+    combinat,
+    igraph,
+    iGraphMatch,
+    Matrix,
+    ROI,
+    Rcpp
+Suggests: 
+    ROI.plugin.cplex,
+    testthat (>= 3.0.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.2.3
+Roxygen: list(markdown = TRUE)
+Config/testthat/edition: 3
+LinkingTo: 
+    Rcpp
