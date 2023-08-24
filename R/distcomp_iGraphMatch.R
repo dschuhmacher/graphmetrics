@@ -1,8 +1,8 @@
 #' Compute distance between two graphs 
 #' 
 #' Run an exact or heuristic algorithm to compute one of several assignment-based graph metrics
-#' (a.k.a. GTT and GOSPA metrics) and its underlying vertex assignment. `gmspat` is an alias for
-#' `gdist`.
+#' (a.k.a. GTT and GOSPA metrics) and its underlying vertex assignment. Based on [Schuhmacher and Wirth (2023)](https://arxiv.org/abs/2308.12165).\cr 
+#' `gmspat` is an alias for `gdist`.
 #' 
 #' @param g1 An `igraph` object. 
 #' @param g2 An `igraph` object.
@@ -61,6 +61,10 @@
 #' The function [iGraphMatch::gm] returns an [iGraphMatch::graphMatch] object that is transformed 
 #' into a permutation. Additionally the distance/cost of this permutation is calculated using the
 #' function [compdist].
+#' 
+#' @references Dominic Schuhmacher and Leoni Carla Wirth (2023).
+#' Assignment Based Metrics for Attributed Graphs.
+#' _ArXiv preprint_, \doi{10.48550/arXiv.2308.12165}
 #' 
 #' @return A list with components `dist` and `perm`, where `dist` is the graph distance corresponding
 #' to the determined (near) optimal permutation `perm`. 

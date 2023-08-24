@@ -85,8 +85,8 @@ to the determined (near) optimal permutation \code{perm}.
 }
 \description{
 Run an exact or heuristic algorithm to compute one of several assignment-based graph metrics
-(a.k.a. GTT and GOSPA metrics) and its underlying vertex assignment. \code{gmspat} is an alias for
-\code{gdist}.
+(a.k.a. GTT and GOSPA metrics) and its underlying vertex assignment. Based on \href{https://arxiv.org/abs/2308.12165}{Schuhmacher and Wirth (2023)}.\cr
+\code{gmspat} is an alias for \code{gdist}.
 }
 \details{
 \code{gdist} expands the two graphs \code{g1} and \code{g2} of size \code{m} and \code{n} to graphs of the
@@ -135,4 +135,9 @@ if (requireNamespace("ROI.plugin.cplex", quietly = TRUE)) {
 gdist(g1, g2, method = faq_match, type="OSPA2")
 gdist(g1, g2, method = auction_match, type="OSPA2")
 
+}
+\references{
+Dominic Schuhmacher and Leoni Carla Wirth (2023).
+Assignment Based Metrics for Attributed Graphs.
+\emph{ArXiv preprint}, \doi{10.48550/arXiv.2308.12165}
 }
