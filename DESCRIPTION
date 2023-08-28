@@ -1,8 +1,8 @@
 Package: graphmetrics
 Type: Package
 Title: Assignment Based Metrics for Attributed Graphs
-Version: 0.2.1
-Date: 2023-08-24
+Version: 0.2.2
+Date: 2023-08-29
 Authors@R: c( person(given = "Dominic", family = "Schuhmacher", email = "schuhmacher@math.uni-goettingen.de", role = c("aut", "cph", "cre"), comment = c(ORCID = "0000-0001-7079-6313")),  
            person(given = c("Leoni", "Carla"), family = "Wirth", email = "leonicarla.wirth@uni-goettingen.de", role = c("aut", "cph")),
            person(given = "Raoul", family = "Müller", role = c("ctb"), comment = "original anova and levene functions"))

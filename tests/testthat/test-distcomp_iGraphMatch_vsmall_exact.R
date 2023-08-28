@@ -1,5 +1,8 @@
 # very small examples, verified by manual computation
 
+skip_on_ci()
+# because of cplex_match (test_that blocks below are hard to split up)
+
 # basic setup for several examples: 
 # xi: vertices as equilateral triangle, side length 2, center at (0, 1/sqrt(3)), edges <
 g1 <- spatgraph(c(-1,1,0), c(0,0,sqrt(3)), from=c(1,1), to=c(2,3)) # equilateral triangle

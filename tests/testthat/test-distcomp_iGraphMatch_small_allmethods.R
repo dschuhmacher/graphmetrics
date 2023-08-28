@@ -1,5 +1,9 @@
 # small examples, verified by closeness (essentially non-neg. difference) to exact solution
 
+skip_on_ci()
+# because of cplex_match (test_that blocks below are hard to split up)
+# in the long run do cplex tests separately or remove them here
+
 testgraphs <- readRDS(file.path("_testdata/testgraphs.rds"))
 
 test_that("gmspat for OSPA1, small, different size, all methods", {
