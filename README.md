@@ -2,6 +2,8 @@
 
 Compute distances between graphs exactly or approximately and perform distance-based statistical analyses. 
 
+Based on [Schuhmacher and Wirth (2023)](https://arxiv.org/abs/2308.12165).
+
 Comments, suggestions and contributions are welcome!
 
 
@@ -19,3 +21,4 @@ For doing exact computations with `method = cplex_match`, you will have to insta
 ## Getting started
 
 The workhorse function for computing distances is called `gdist`. Functions for performing statistical analyses based on distances are `anderson_anova` and `msm_levene`. More information can be obtained from the respective help pages once the package has been installed.
+
