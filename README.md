@@ -1,5 +1,7 @@
 # graphmetrics
 
+  <!-- badges: start -->  [![R-CMD-check](https://github.com/dschuhmacher/graphmetrics/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/dschuhmacher/graphmetrics/actions/workflows/R-CMD-check.yaml)  <!-- badges: end -->
+
 Compute distances between graphs exactly or approximately and perform distance-based statistical analyses. 
 
 Based on [Schuhmacher and Wirth (2023)](https://arxiv.org/abs/2308.12165).
