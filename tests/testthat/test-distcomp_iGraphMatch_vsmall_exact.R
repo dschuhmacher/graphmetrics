@@ -1,6 +1,6 @@
 # very small examples, verified by manual computation
 
-skip_on_ci()
+skip_if_not_installed("ROI.plugin.cplex")
 # because of cplex_match (test_that blocks below are hard to split up)
 
 # basic setup for several examples: 
